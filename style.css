@@ -34,7 +34,8 @@ width: 100%;
 display: flex;
 justify-content: space-around;
 align-items: center;
-background-color: #2fcdcd;
+/* background-color: #2fcdcd; */
+background-color: rgba(73, 73, 73, 0.7);
 padding-left: 2vw;
 
 
@@ -83,7 +84,7 @@ nav ul li a{
   
 }
 li.active, li:hover{
-background: #000090;
+background: #2fcdcd;;
 transition: .5s; 
 }
 .develop{
@@ -98,24 +99,25 @@ transition: .5s;
   
 }
 .ul-second > li {
-  width: 190px;
-  transform: translateX(-35px);
+  width: 130px;
+  transform: translateX(-25px);
   border-bottom: solid 1px #fff;
   text-align: center;
-  background-color: #000090;
+  background-color: #2fcdcd;;
   border-radius: 8px;
 }
 
 .ul-second > li:hover{
-  background: #000090;
+  /* background: #000090; */
   margin: 0px 10px;
+  text-decoration: underline;
 }
 .develop:hover > .ul-second{
   display: block;
 
 }
 .develop .ul-second li a{
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .checkbtn{
@@ -179,11 +181,11 @@ nav ul li a{
 /**/
 body{
   height: 100vh;
-  background: #dddddd;
+  background: rgb(168, 167, 167);
   color: #fff;
 }
 .contenedor{
-  background: rgb(199, 198, 198);
+  background: #e9e9e9;
   max-width: 1500px;
   margin: 10px auto;
   /* overflow: hidden; */
