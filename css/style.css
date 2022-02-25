@@ -1,0 +1,357 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.portada_telnet{
+  width: 100%;
+  height: 700px;
+  background:url("../imagenes/protocolo-de-red-del-teletipo-cliente-terminal-virtual-telnet.jpg");
+  background-attachment: fixed;
+}
+.portada_index{
+  width: 100%;
+  height: 910px;
+  background:url("../imagenes/101.jpg");
+  background-attachment: fixed;
+}
+.portada_ssh{
+  width: 100%;
+  height: 700px;
+  background:url("../imagenes/ssh.jpg");
+  background-attachment: fixed;
+}
+.portada_protocolo-ssh-telnet{
+  width: 100%;
+  height: 400px;
+  background:url("../imagenes/03.jpg");
+  background-attachment: fixed;
+}
+
+/*titulos de cada pagina*/
+.titulo_tel_ssh{
+  display: flex;
+  background: rgb(198, 199, 198,.6);
+  margin-top: 210px;
+  justify-content: center;
+}
+.titulo_tel_ssh h1{
+  display: flex;
+  font-size: 70px;
+  color: #000;
+}
+.titulo_telnet h1{
+  display: flex;
+  font-size: 70px;
+  color: #000;
+}
+.titulo_telnet{
+  display: flex;
+  background: rgb(198, 199, 198,.6);
+  margin-top: 450px;
+  justify-content: center;
+}
+.titulo_index{
+  display: flex;
+  background:rgb(168, 167, 167);
+  margin-top: 650px;
+  margin-left: 50px;
+  width: 60%;
+}
+.titulo_index h1{
+  display: flex;
+  font-size: 70px;
+  color: #000;
+  text-align: center;
+}
+.titulo_ssh{
+  display: flex;
+  background:rgb(168, 167, 167);
+  margin-top: 450px;
+
+  width: 65%;
+  justify-content: center;
+}
+.titulo_ssh h1{
+  display: flex;
+  font-size: 70px;
+  color: #000;
+  text-align: center;
+}
+.portada_protocolo-ssh-telnet{
+
+}
+/*END*/
+
+/**/
+nav{
+/* background: #2fcdcd; */
+height: 80px;
+width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+/* background-color: #2fcdcd; */
+background-color: rgba(73, 73, 73, 0.7);
+padding-left: 2vw;
+
+
+}
+.enlace{
+/* position: absolute; */
+padding: 20px 50px;
+
+}
+.logo{
+height: 70px;
+border-radius: 20%;
+}
+
+/*prueba menu js                  */
+.cont-ul li:first-child{
+  display: block;
+}
+
+
+.responsive li {
+	display: block;
+}
+
+@media screen and (max-width: 600px) {
+	.cont-ul {
+		display: flex;
+	}
+	.cont-ul li:first-child {
+		display: none;
+	}
+	.cont-ul li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	.cont-ul li a{
+		color: rgb(192, 26, 184);
+	}
+}
+
+/**/
+nav ul{   /*cont-ul*/
+display: flex;
+align-items: center;
+/* float: right;
+margin-right: 20px; */
+color: #fff;
+text-align: center;
+}
+nav ul li {
+  list-style: none;
+  cursor: pointer;
+  /* padding: 1.5vw; */
+  padding: 10px 10px;
+  color: #fff;
+  margin: 0 5px;
+  border-radius: 15px; 
+  width: 19%;
+ 
+/* display: inline-block;
+line-height: 80px;
+margin: 0 5px; */
+}
+nav ul li a{
+/* color: #fff; */
+font-size: 16px;
+padding: 7px 14px;
+border-radius: 3px;
+text-transform: uppercase;
+width: 30%;
+text-decoration: none;
+color: #fff;
+}
+
+li a.active, li:hover{
+background: #2fcdcd;
+transition: .5s; 
+}
+.develop{
+  position: relative;
+}
+.ul-second{
+  display: none;
+  position: absolute;
+  /* margin-top: 1.5vw; */
+  padding: 7px 13px;
+  
+  
+}
+.ul-second > li {
+  width: 130px;
+  transform: translateX(-25px);
+  border-bottom: solid 1px #fff;
+  text-align: center;
+  background-color: #2fcdcd;;
+  border-radius: 8px;
+}
+
+.ul-second > li:hover{
+  /* background: #000090; */
+  margin: 0px 10px;
+  text-decoration: underline;
+}
+.develop:hover > .ul-second{
+  display: block;
+
+}
+.develop .ul-second li a{
+  font-size: 15px;
+}
+
+/* .checkbtn{
+font-size: 30px;
+color: #fff;
+float: right;
+line-height: 80px;
+margin-right: 40px;
+cursor: pointer;
+display: none;
+}
+#check{
+display: none;
+} */
+/* section{
+background: url() no-repeat;
+background-size: cover;
+background-position: center center;
+height: calc(100vh - 80px);
+
+} */
+
+/* @media (max-width: 952px){
+.enlace{
+    padding-left: 20px;
+}
+nav ul li a{
+    font-size: 16px;
+}
+}
+
+@media (max-width: 858px){
+.checkbtn{
+    display: block;
+}
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #d8dfe6;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  li a:hover, li a.active{
+    background: none;
+    color: red;
+  }
+  #check:checked ~ ul{
+  left:0;
+  }
+} */
+/**/
+body{
+  height: 100vh;
+  background: rgb(168, 167, 167);
+  color: #000;
+}
+.contenedor{
+  background: #e9e9e9;
+  max-width: 1500px;
+  margin: 10px auto;
+  overflow: hidden; 
+}
+
+/*estilos.css*/
+main{
+  width: 70%;
+  float: left;
+}
+.titulos{
+  margin-left: 20px;
+}
+.contenedor main section article{
+  margin: 20px;
+  width: 100%;
+  text-align: justify ;
+  font-size: 25px;
+  color: #000;
+}
+.img_inicio{
+  margin: 20px 100px;
+}
+.img_second{
+  margin: 20px 250px;
+}
+.cajas_negras{
+  display: flex;
+  background-color: #000;
+  color: #58D68D;
+  justify-content: start;
+  width: 80%;
+  
+}
+.cajas_negras p{
+  margin: 20px 20px;
+  font-size: 17px;
+}
+.foot{
+  text-align: left;
+  width: 100%;
+  padding: 0px;
+}
+footer{
+  background: #EBB3A9;
+  
+  width: 100%;
+  float: left;
+  font-size: 1.3em;
+  padding: 20px;
+}
+aside{
+  /* background:#e9e9e9; */
+  width: 28%;
+  /* line-height: 25px; */
+  float: right;
+  margin: 5px 5px;
+  border-radius: 10px;
+  /* border: 2px solid #000; */
+  margin-top: 75px;
+  padding: 10px 10px;
+  
+}
+.section_aside a{
+  padding: 15px;
+  font: 1.2em;
+  text-decoration: none;
+  font-size: 18px;
+}
+.section_aside a:link{
+  text-decoration: none;
+}
+.section_aside a:visited{
+  color: rgb(73, 139, 224);
+}
+.section_aside a h4:hover{
+  text-decoration: underline;
+  margin: 0px 10px;
+  transition: all 150ms ease;
+}
