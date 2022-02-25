@@ -62,8 +62,6 @@
   margin-top: 650px;
   width: 100%;
   justify-content: center;
-  
-  
 }
 .titulo_index h1{
   display: flex;
@@ -85,10 +83,9 @@
   color: #000;
   text-align: center;
 }
-.portada_protocolo-ssh-telnet{
 
-}
 /*END*/
+
 
 /**/
 nav{
@@ -273,11 +270,16 @@ main{
   font-size: 25px;
   color: #000;
 }
-.img_inicio{
+main .img_inicio img{
+  
   margin: 20px 100px;
+  width: 70%;
 }
-.img_second{
+
+main .section_main .img_second img{
+  width: 50%;
   margin: 20px 250px;
+
 }
 .cajas_negras{
   display: flex;
