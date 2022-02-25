@@ -9,8 +9,8 @@
 /*Portadas de cada pagina*/
 .portada_telnet{
   width: 100%;
-  height: 600px;
-  background:url("../imagenes/protocolo-de-red-del-teletipo-cliente-terminal-virtual-telnet.jpg");
+  height: 690px;
+  background:url("../imagenes/banner\ Telnet.jpg");
   background-attachment: fixed;
 }
 .portada_index{
@@ -52,7 +52,7 @@
 .titulo_telnet{
   display: flex;
   background:rgb(168, 167, 167);
-  margin-top: 400px;
+  margin-top: 480px;
   width: 100%;
   justify-content: center;
 }
