@@ -279,6 +279,7 @@ body{
   margin: 10px auto;
   overflow: hidden;
   border: 2px solid; 
+  box-shadow:20px 5px 5px rgba(0,0,0,.4);
 }
 
 /*estilos.css*/
