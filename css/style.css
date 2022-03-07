@@ -390,7 +390,9 @@ footer section{
   padding: 30px;
   font-size: 0.8em;
 }
-
+footer .footer_primario{
+  font-size: 0.9em;
+}
 
 
 
