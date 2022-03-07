@@ -14,33 +14,36 @@
 </head>
 <body>
   <header>
-    <div class="portada_index">      
+    <div class="portada_index">
+      
       <nav>
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn"> <i class="fas fa-bars"></i>        </label>
-        <div class="enlace"> <a href="index.html" class=""> <img src="imagenes/ukknownhackers.jpg" alt="" class="logo"> </a></div>
+        <div class="enlace">
+        <a href="index.html" class=""> <img src="imagenes/ukknownhackers.jpg" alt="" class="logo"> </a>
+      </div>
         <ul class="cont-ul">
-          <li><a class="active" href="index.html">Inicio</a></li>
-          <li class="develop"><a href="#">Linux</a>
-            <ul class="ul-second">
-                <li><a href="">Historia de Linux</a></li>
-                <li><a href="">Comandos Básicos</a></li>
-                <li><a href="protocolos.html">Protocolo SSH-Telnet</a></li>
-            </ul>
-          </li>
-          <li class="develop"><a href="">Configuración de servidores</a>
-            <ul class="ul-second">
-                <li><a href="./ssh.html">Protocolo SSH</a></li>
-                <li><a href="./telnet.html">Protocolo Telnet</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Ciberseguridad</a></li>
-          <li><a href="#">Debian</a></li>
-          <li><a href="./contacto.html">Contacto</a></li>
+            <li><a class="active" href="index.html">Inicio</a></li>
+            <li class="develop"><a href="#">Linux</a>
+              <ul class="ul-second">
+                  <li><a href="">Historia de Linux</a></li>
+                  <li><a href="">Comandos Básicos</a></li>
+                  <li><a href="protocolos.html">Protocolo SSH-Telnet</a></li>
+              </ul>
+            </li>
+            <li class="develop"><a href="">Configuración de servidores</a>
+              <ul class="ul-second">
+                  <li><a href="./ssh.html">Protocolo SSH</a></li>
+                  <li><a href="./telnet.html">Protocolo Telnet</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Ciberseguridad</a></li>
+            <li><a href="#">Debian</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
         </ul>
       </nav>
       <div class="titulo_index">
-        <h1 style="text-align: center;">Tutoriales gratis de redes, ciberseguridad, linux</h1>
+        <h1 style="text-align: center;">Contactate con nosotros, te responderemos lo mas antes posible</h1>
       </div>
     </div>
   </header>
@@ -51,12 +54,17 @@
       <img src="imagenes/default.jpg" width="800" alt="ssh_imagen">
       </div>
         <section class="section_main">
-          <article>
-
-
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quasi dolor asperiores. Earum recusandae autem totam esse repellendus magni quas, qui ex, nam accusantium placeat atque blanditiis, voluptates deleniti doloremque.</p>
-
-
+          <article class="form">
+            <form class="formulario">
+              <h3>Contáctanos</h3>
+              
+              <input type="email" name="Correo" id="correo" placeholder="Ingresa tu correo" required> <br>          
+              <input type="text" name="Nombre" id="nombre" placeholder="Ingresa tu Nombre" required> <br>         
+              <textarea name="Area" id="area" cols="30" rows="10" width="auto" placeholder="Comentario" required></textarea> <br>
+              <input type="submit" value="Enviar" onsubmit="alert('Gracias por contactarte con nosotros.')">
+              
+            </form>
+          
           </article>
 
         </section>
