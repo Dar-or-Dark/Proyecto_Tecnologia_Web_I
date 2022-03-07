@@ -50,7 +50,87 @@
     </div>
   </header>
   <div class="contenedor">
+<<<<<<< HEAD
     <main>
+=======
+  <main>
+    
+    <div class="img_inicio">
+    <img src="./imagenes/telnet&ssh.jpg" width="800" alt="ssh_imagen">
+    </div>
+    <section class="section_main">
+      <article>
+        <div class="img_second">
+          <img src="imagenes/telnet.png" alt="telnetlogo">
+        </div>
+        <p>Telnet es una herramienta que ha sido utilizada durante décadas por los administradores de sistema informáticos en el ámbito de las redes. Las conexiones remotas no son algo precisamente nuevo, ya desde las primeras redes y con sistemas sin escritorio se utilizaban herramientas como Telnet para conectarnos a servidores y equipos conectados a una red, tanto de forma remota como interna. Aquí conoceremos mejor qué es Telnet y para que se utilizaba.</p> <br>
+        <p>El nombre de Telnet proviene del acrónimo <em>Telecomunication Network</em>, y básicamente un protocolo de red TCP/IP que es utilizado desde 1960 para establecer conexiones remotas con otros ordenadores, servidores, y dispositivos con un sistema compatible en el acceso mediante este sistema de comunicación. De forma predeterminada se utiliza el puerto de conexión 23.</p><br>
+        <p>Además del propio protocolo, también recibe este nombre el programa que lo utiliza para establecer la propia conexión. Para acceder a la otra máquina de forma remota, debemos utilizar un terminal, por ejemplo, Símbolo del sistema de Windows, o el Terminal de Linux. De esta forma podremos interactuar en la máquina remota navegando por sus archivos, ejecutando otros comandos internos, si tenemos permiso, y monitorizar el estado de la propia máquina sin la necesidad de ir físicamente al lugar en donde se encuentra.</p><br>
+        <p>Además de ser utilizado en sistemas MSDOS y Windows, también es compatible con sistemas Basados en UNIX, como Mac y Linux, y FreeBSD. Con este protocolo, también seremos capaces de comprobar la conectividad de otras máquinas y comprobar si tienen determinados puertos abiertos al exterior. Esto es algo que veremos en un momento.</p><br>
+        <h3>¿Cómo funciona Telnet?</h3><br>
+        <p>Como decimos, este protocolo y programa, solamente es posible utilizarlo en modo comando. Para que podamos establecer una conexión entre dos ordenadores con Telnet, primero necesitaremos tener un cliente en el terminar que estamos nosotros, y un servidor en la máquina a la que pretendemos acceder. Si además lo hacemos fuera de una intranet, o red LAN, necesitaremos tener el puerto 23 abierto en la máquina de destino.</p>
+      </article>
+      <article>
+        <br><div class="titulo"><h1>¿Qué es el protocolo SSH?</h1></div>
+        
+        <div class="img_second">
+          <img src="imagenes/ssh.jpg" width="500" alt="SSHlogo">
+        </div>
+        <p>SSH o Secure Shell es un protocolo de comunicaciones seguras para conectar de forma remota dos sistemas operativos para que podamos controlar mediante consola de comandos un equipo host desde un equipo cliente.</p><br>
+        <p>Lo más importante de SSH es que es capaz de encriptar la sesión de conexión, cosa que no es posible con FTP o Telnet, protocolos mucho más inseguros y ya poco utilizados.</p><br>
+        <p>SSH también permite copiar datos de forma segura desde un host a un cliente con la posibilidad de utilizar claves RSA más seguras que las claves de sesión de usuarios normales y además podremos tunelizar la transmisión de ficheros para adquirir aún más seguridad.</p><br>
+        <p>Actualmente es posible hacer SSH entre prácticamente cualquier equipo tenga el sistema operativo que tenga, ya que existen programas específicos para obtener estar compatibilidad, como por ejemplo OpenSSH, Putty, Shell, SSH-Agent entre otros.</p><br>
+        <h3>¿Cuáles son sus usos?</h3><br>
+        <p>SSH es un protocolo que se puede utilizar para muchas aplicaciones en muchas plataformas, incluidas la mayoría de las variantes de Unix (Linux, los BSD, incluido macOS de Apple y Solaris), así como Microsoft Windows. Algunas de las aplicaciones siguientes pueden requerir características que solo están disponibles o son compatibles con clientes o servidores SSH específicos. Por ejemplo, es posible usar el protocolo SSH para implementar una VPN, pero actualmente solo con la implementación del servidor OpenSSH y el cliente.</p><br>
+        <ul style="padding-left: 10%;">
+          <li>Para iniciar sesión en un shell en un host remoto (reemplazando Telnet y rlogin).</li>
+          <li>Para ejecutar un solo comando en un host remoto (reemplazando rsh).</li>
+          <li>Para configurar el inicio de sesión automático (sin contraseña) en un servidor remoto (por ejemplo, mediante OpenSSH.</li>
+          <li>Para el monitoreo y la administración remota automatizada de servidores a través de uno o más de los mecanismos discutidos anteriormente.</li>
+        </ul>
+      </article>
+      <hr>
+      <article class="form">
+        <form class="formulario">
+          <h3>Contáctanos</h3>
+          
+          <input type="email" name="Correo" id="correo" placeholder="Ingresa tu correo" required> <br>          
+          <input type="text" name="Nombre" id="nombre" placeholder="Ingresa tu Nombre" required> <br>         
+          <textarea name="Area" id="area" cols="30" rows="10" placeholder="Comentario" required></textarea> <br>
+          <input type="submit" value="Enviar" onsubmit="alert('Gracias por contactarte con nosotros.')">
+          
+        </form>
+       
+      </article>
+    </section>
+
+  </main>
+   <aside>
+      <section class="section_aside">
+        <h3>ARTÍCULOS DE ESTA SERIE</h3><hr>
+       <a href="https://ecuador.unir.net/actualidad-unir/que-es-seguridad-informatica/"><h4>Más sobre Seguridad informática</h4></a>
+        
+       <a href="https://www.campusciberseguridad.com/blog/item/152-red-team-blue-team"><h4>Red Team & Blue Team</h4></a>
+       <a href=""><h4>La Seguridad Ofensiva </h4></a>
+       <a href="https://www.unir.net/ingenieria/revista/informatica-forense/"><h4>¿De qué trata la Informatica Forence?</h4></a>
+       <a href="https://www.iebschool.com/blog/big-data-business-intelligence-diferencias-big-data/"><h4>Big Data & Business</h4></a>
+       <a href="https://www.master-data-scientist.com/que-es-masters-in-data-science/"><h4>Data Science</h4></a>
+       <a href=""><h4></h4></a>
+      <br> <hr>
+    </section>
+    <section class="section2">
+        <p></p>
+    </section>
+
+  </aside>
+  
+  <footer>
+
+    <div class="foot">
+      <div style="width: 49%; height: 200px; ; display: inline-block; padding: 25px; text-align: justify;">
+        <h3>Sobre Nosotros </h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint eius fugit optio! Veritatis inventore, maiores adipisci excepturi maxime nihil expedita labore, ipsa fugiat consectetur incidunt delectus, eveniet officiis sit laborum.</p>
+>>>>>>> 8e115465b11d428d3382084c4651249f0e840746
       
       <div class="img_inicio">
       <img src="./imagenes/telnet&ssh.jpg" width="800" alt="ssh_imagen">
