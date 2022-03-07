@@ -419,4 +419,6 @@ body aside{
      width: 100%; /**/
     }
   } 
-  
+  header marquee{
+    font-size: 30px;
+  }
