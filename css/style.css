@@ -484,5 +484,7 @@ footer .footer_primario{
 header marquee{
   font-size: 30px;
 }
-
+main video{
+  width: 100%;
+}
 
