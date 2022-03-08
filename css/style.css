@@ -403,7 +403,7 @@ footer .footer_primario{
   }
 }
   
-@media (max-width: 858px){
+@media (max-width: 700px){
   .checkbtn{
       display: block;
   }
@@ -416,7 +416,9 @@ footer .footer_primario{
   .contenedor{
     flex-direction: column;
   }
-
+  aside{
+    display: none;
+  }
   .cont-ul{
     position: fixed;
     display: block;
