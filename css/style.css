@@ -254,7 +254,6 @@ main .img_inicio img{
 main .section_main .img_second img{
   width: 50%;
   margin: 20px 250px;
-
 }
 .cajas_negras{
   display: flex;
@@ -480,10 +479,11 @@ footer .footer_primario{
     font-size: 40px;
   }
   .titulo_tel_ssh h1{
-    display: flex;
-    font-size: 37px;
-
-    
+    font-size: 35px;
+  }
+  main .section_main .img_second img{
+    width: 50%;
+    margin: 0px auto;
   }
   footer{
     font-size: 1em;
