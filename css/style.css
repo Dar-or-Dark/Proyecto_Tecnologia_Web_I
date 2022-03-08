@@ -246,8 +246,9 @@ main{
 }
 main .img_inicio img{
 
-  margin: 20px 100px;
+  margin: 0 auto;
   width: 70%;
+  align-content: center;
 }
 
 main .section_main .img_second img{
@@ -344,9 +345,7 @@ body aside{
   margin: 0px 10px;
   transition: all 150ms ease;
 }
-aside{
-  margin-left: 50px;
-}
+
 
 /*Footer*/
 footer {
@@ -469,6 +468,9 @@ footer .footer_primario{
   main , body aside {
     width: 100%; 
     
+  }
+  .titulo_index h1 {
+    font-size: 40px;
   }
   footer{
     font-size: 1em;
