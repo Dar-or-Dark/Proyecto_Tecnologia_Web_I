@@ -14,7 +14,7 @@
 </head>
 <body>
   <header>
-    <div class="portada_index">      
+    <div class="portada_index"style="background:url('imagenes/router.jpg'); background-attachment: fixed; background-repeat: no-repeat;">      
       <nav>
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn"> <i class="fas fa-bars"></i></label>
@@ -32,6 +32,7 @@
             <ul class="ul-second">
                 <li><a href="./ssh.html">Protocolo SSH</a></li>
                 <li><a href="./telnet.html">Protocolo Telnet</a></li>
+                <li><a href="./router.html">Telnet-SSH en Router</a></li>
             </ul>
           </li>
           <li><a href="#">Ciberseguridad</a></li>
@@ -40,12 +41,41 @@
         </ul>
       </nav>
       <div class="titulo_index">
-        <h1 style="text-align: center;">Tutoriales gratis de redes, ciberseguridad, linux</h1>
+        <h1 style="text-align: center;">Acceso remoto a Router Cisco</h1>
       </div>
     </div>
   </header>
   <div class="contenedor">
     <main>
+      <section>
+        <h1>Configuracion Telnet</h1><br>
+        <p>Primeramente se habilitara las lineas vty, que son canale de comunicación virtual para conectarse al dispositivo, creamos una contraseña y habilitamos el login</p> <br>
+        <div class="cajas_negras"><p>R1#(config)# line vty 0 15</p></div>
+        <div class="cajas_negras"><p> R1#(config-line)# password cualquier_contraseña</p></div>
+        <div class="cajas_negras"><p> R1#(config-line)# login</p> </div>
+        <div class="cajas_negras"><p> R1#(config-line)# end</p> </div><br>
+        <p>Con eso ya podemos probrar la coneccion de remota desde cualquier dispositivo de la red, haciendo una coneccion a la ip del router con el comando telnet.</p> <br>
+        <div class="cajas_negras"><p>SW2# telnet 10.0.0.1</p></div> <br>
+
+        <h1>Configuracion SSH</h1><br>
+        <p>Primeramente generamos una llave compartida en el router para poder realizar la coneccion</p><br>
+        <div class="cajas_negras"><p>R1#(config)#crypto key generate rsa</p></div> <br>
+        <p>Habilitamos el servicio y  las lineas virtual vty p</p><br>
+        <div class="cajas_negras"><p>R1#(config)#ip ssh version 2</p></div> 
+        <div class="cajas_negras"><p>R1#(config)#line vty 0 15</p></div> 
+        <div class="cajas_negras"><p>R1#(config)#transport input ssh</p></div> 
+        <div class="cajas_negras"><p>R1#(config)#login local</p></div> <br>
+        <p>Creamos la credenciales de usuario </p><br>
+        <div class="cajas_negras"><p>R1#(config)#username mario privilege 15 secret cisco123</p></div> 
+        <div class="cajas_negras"><p>R1#(config)#enable secret cisco123</p></div> 
+
+
+
+          
+          
+          
+        
+      </section>
       
       
     </main>
