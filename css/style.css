@@ -486,6 +486,18 @@ footer .footer_primario{
     width: 50%;
     margin: 0px auto;
   }
+  .portada_ssh{
+    width: 100%;
+    height: 300px;
+    background:url("../imagenes/ssh.jpg");
+    background-attachment: fixed;
+  }
+  .titulo_ssh{
+    display: flex;
+    background:rgb(168, 167, 167);
+    margin-top: 100px;  
+    justify-content: center;
+  }
   footer{
     font-size: 1em;
   }
