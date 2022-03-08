@@ -45,19 +45,19 @@
 }
 .titulo_tel_ssh h1{
   display: flex;
-  font-size: 70px;
+  font-size: 60px;
   color: #000;
   
 }
 .titulo_telnet h1{
   display: flex;
-  font-size: 70px;
+  font-size: 60px;
   color: #000;
 }
 .titulo_telnet{
   display: flex;
   background:rgb(168, 167, 167);
-  margin-top: 480px;
+  margin-top: 475px;
   width: 100%;
   justify-content: center;
   
