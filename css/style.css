@@ -57,7 +57,7 @@
 .titulo_telnet{
   display: flex;
   background:rgb(168, 167, 167);
-  margin-top: 475px;
+  margin-top: 470px;
   width: 100%;
   justify-content: center;
   
@@ -394,7 +394,7 @@ footer .footer_primario{
 
 
 /* Media Query */
-@media (max-width: 800px){
+@media (max-width: 952px){
   .enlace{
       padding-left: 20px;
   }
@@ -403,7 +403,7 @@ footer .footer_primario{
   }
 }
   
-@media (max-width: 600px){
+@media (max-width: 858px){
   .checkbtn{
       display: block;
   }
