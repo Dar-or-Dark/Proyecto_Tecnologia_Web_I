@@ -415,7 +415,9 @@ footer .footer_primario{
   .contenedor{
     flex-direction: column;
   }
-
+  aside .section_aside{
+    display: none;
+  }
   .cont-ul{
     position: fixed;
     display: block;
@@ -489,5 +491,7 @@ footer .footer_primario{
 header marquee{
   font-size: 30px;
 }
-
+main video{
+  width: 100%;
+}
 
