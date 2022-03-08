@@ -394,7 +394,7 @@ footer .footer_primario{
 
 
 /* Media Query */
-@media (max-width: 952px){
+@media (max-width: 800px){
   .enlace{
       padding-left: 20px;
   }
@@ -403,7 +403,7 @@ footer .footer_primario{
   }
 }
   
-@media (max-width: 700px){
+@media (max-width: 600px){
   .checkbtn{
       display: block;
   }
@@ -416,9 +416,7 @@ footer .footer_primario{
   .contenedor{
     flex-direction: column;
   }
-  aside{
-    display: none;
-  }
+
   .cont-ul{
     position: fixed;
     display: block;
