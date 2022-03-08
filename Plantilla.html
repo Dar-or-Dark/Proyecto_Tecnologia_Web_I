@@ -14,7 +14,7 @@
 </head>
 <body>
   <header>
-    <div class="portada_index" style="background:url('imagenes/banner\ Telnet.jpg');" >      
+    <div class="portada_index">      
       <nav>
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn"> <i class="fas fa-bars"></i></label>
@@ -40,57 +40,14 @@
         </ul>
       </nav>
       <div class="titulo_index">
-        <h1 style="text-align: center;">Configuración de Telnet en Linux</h1>
+        <h1 style="text-align: center;">Tutoriales gratis de redes, ciberseguridad, linux</h1>
       </div>
     </div>
   </header>
   <div class="contenedor">
     <main>
-      <div class="img_inicio">
-        <img src="./imagenes/telnet.jpg" alt="ssh_imagen">
-        </div>
-          <section class="section_main">
-            <h3>Concepto de Telnet</h3>
-            <article class="">
-              <p>En la actualidad, Telnet no es un protocolo de comunicación remota demasiado utilizado para este tipo de soluciones, especialmente en entornos Linux, ya que han aparecido protocolos de comunicación mucho más seguros como SSH. Estos nos permiten establecer conexiones cifradas, mucho más seguras a ataques informáticos como spyware que Telnet.</p><br>
-              <p></p><br>
-              <h3 class="h_section_main">Instalación y Configuración del Servidor Telnet</h3><br>
-              <p>Instalar los paquetes del Servicio Telnet con los siguientes comandos:</p><br>
-              <div class="cajas_negras">
-                <p>sudo apt install openbsd-inetd</p><br>
-              </div>
-              <div class="cajas_negras">
-                <p>sudo apt install telnetd</p><br>
-              </div><br>
-              <p>Configurar y verificar del siguiente archivo</p><br>
-              <div class="cajas_negras">
-                <p> sudo nano /etc/inetd.conf</p>
-              </div><br>
-              <p>Dentro del archivo quitar la almohadilla o numeral (#), de la sección que describe:</p><br>
-              <div class="cajas_negras">
-                <p>#telnet stream tcp ……………….</p>
-              </div><br>
-              <p>Guardar los cambios efectuados Ctrl + x ó F3</p><br>
-              <p>Reiniciamos el Server Telnet instalado</p><br>
-              <div class="cajas_negras">
-                <p>sudo /etc/init.d/openbsd-inetd restart</p>
-              </div><br>
-              <p>Verificar si el Server Telnet logra escuchar.</p>
-              <p>(Verifica si está activo y en escucha)</p><br>
-              <div class="cajas_negras">
-                <p>netstat -ltp</p>
-              </div><br>
-              <p> (Verifica si está activo y en escucha además de mostrar porque puerto escucha el server telnet)</p><br>
-              <div class="cajas_negras">
-                <p>netstat ltpn</p>
-              </div><br>
-            </article>
-            <video  controls class="video">
-              <source src="./videos/video_telnet.mp4" type="video/mp4">
-            </video>
-          </section>
       
-
+      
     </main>
     <aside>
       <section class="section_aside">
