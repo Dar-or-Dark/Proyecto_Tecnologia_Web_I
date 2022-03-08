@@ -415,7 +415,9 @@ footer .footer_primario{
   .contenedor{
     flex-direction: column;
   }
-
+  aside .section_aside{
+    display: none;
+  }
   .cont-ul{
     position: fixed;
     display: block;
