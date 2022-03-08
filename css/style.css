@@ -137,7 +137,7 @@ nav ul li {
   margin: 0 5px;
   border-radius: 10px;
   width: 19%;
-
+  text-align: center;
 
 }
 nav ul li a{
@@ -400,6 +400,8 @@ footer .footer_primario{
   nav ul li a{
       font-size: 16px;
   }
+
+
 }
   
 @media (max-width: 858px){
@@ -414,12 +416,6 @@ footer .footer_primario{
   }
   .contenedor{
     flex-direction: column;
-  }
-  .portada_ssh{
-    width: 100%;
-    height: 400px;
-    background:url("../imagenes/ssh.jpg");
-    background-attachment: fixed;
   }
   aside .section_aside{
     display: none;
@@ -482,6 +478,13 @@ footer .footer_primario{
   }
   .titulo_ssh h1 {
     font-size: 40px;
+  }
+  .titulo_tel_ssh h1{
+    font-size: 35px;
+  }
+  main .section_main .img_second img{
+    width: 50%;
+    margin: 0px auto;
   }
   footer{
     font-size: 1em;
