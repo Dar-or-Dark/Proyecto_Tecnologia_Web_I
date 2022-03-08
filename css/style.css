@@ -479,6 +479,12 @@ footer .footer_primario{
   .titulo_ssh h1 {
     font-size: 40px;
   }
+  .titulo_tel_ssh h1{
+    display: flex;
+    font-size: 37px;
+
+    
+  }
   footer{
     font-size: 1em;
   }
