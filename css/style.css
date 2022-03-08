@@ -474,6 +474,9 @@ footer .footer_primario{
   .titulo_index h1 {
     font-size: 40px;
   }
+  .titulo_ssh h1 {
+    font-size: 40px;
+  }
   footer{
     font-size: 1em;
   }
